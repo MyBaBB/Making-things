@@ -16,6 +16,7 @@ body {
     flex-direction: column;
 }
 
+
 h1 {
     text-align: center;
     color: #002244;
@@ -32,8 +33,23 @@ h2 {
     text-shadow: 1.25px 1.25px #FFC20E;
 }
 
- 
-.suprise {
+#folded-corner {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #f1f1f1;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#folded-corner:hover {
+    border-right: 50px solid #ddd;
+    transform: translateX(0px) rotate(90deg);
+}
+.surprise {
     position: fixed;
     animation: zoomInOut 2s ease-in-out infinite;
 }
