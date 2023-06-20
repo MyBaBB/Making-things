@@ -34,23 +34,22 @@ h2 {
 
  
 .suprise {
-    animation: rotate 30s linear infinite;
-   
-    position: sticky;
-    animation: move 3s ease-in-out infinite;
+    position: fixed;
+    animation: zoomInOut 2s ease-in-out infinite;
 }
 
-@keyframes move {
+@keyframes zoomInOut {
     0% {
-        left: 0;
+        transform: scale(1);
     }
     50% {
-        left: calc(100% - 1.5rem);
-        transform: rotate(-45deg);
+        transform: scale(2);
     }
     100% {
-        left: 0;
+        transform: scale(1);
     }
+
+
 }
 
 
@@ -87,19 +86,20 @@ h2 {
     animation: move2 2s ease-in-out infinite;
     animation-delay: 0.5s;
 }
-
-.item1 {
-    animation: move1 2s ease-in-out infinite;
-    animation: rotate 30s linear infinite;
-    
-}
-
 .item2 {
     animation: rotate 30s linear infinite;
     animation: move2 2s ease-in-out infinite;
-    animation-delay: 0.5s; /* Add a delay of 0.5 seconds */
+    animation-delay: 0.5s;
 }
 
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
 .item3 {
     animation: rotate 30s linear infinite;
     animation: move3 2s ease-in-out infinite;
