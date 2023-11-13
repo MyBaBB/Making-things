@@ -1,5 +1,6 @@
 {
-  "name": "my-landing-page",
+  "name": "my-vite-components",
+   
   "private": true,
   "version": "0.0.0",
   "type": "module",
