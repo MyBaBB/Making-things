@@ -32,57 +32,9 @@
               
          </p>
        <!--  this is the countdown timer -->
-    <div style=" 
-    letter-spacing: 3px;
-    position: relative;
-    display: flex;
-    width: fit-content;
-    margin-top: 1.5rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: pulse 1s infinite;
-    text-align: center;
-    padding: 2px;
-">
+    
       <p id="demo"> 
       </p>  
-    
-   
-
-        
-    <script>
-        // Set the date we're counting down to
-        var countDownDate = new Date("nov 23, 2023 00:00:00 PST").getTime();
-
-        // Update the count down every 1 second
-        var x = setInterval(function() {
-
-            // Get today's date and time
-            var now = new Date().getTime();
-
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
-
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Display the result in the element with id="demo"
-            document.getElementById("demo").innerHTML = days + "-days " + hours + ":"
-            var minutesStr = minutes < 10 ? "0" + minutes : minutes;
-            var secondsStr = seconds < 10 ? "0" + seconds : seconds;
-            document.getElementById("demo").innerHTML = days + "-days " + hours + ": " + minutesStr + ": " + secondsStr + " ";
-
-            // If the count down is finished, write some text
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000; font-size: 2.75rem;'><b>&nbsp;Pilgrims...</b></span>";
-            }
-        }, 1000);
-    </script>
-
    </div>
   </div>
  </div>
@@ -101,7 +53,7 @@
     <div class='top'><img class="blackPowderCross6"   src="/build/img/blackPowderCross6.jpg" alt="Black Powder Cross6" height="150" width="150">
     </div>
        <div class="boxSides">
-         <span class='FranknBridewithCorn2' style='--i:0;'><img src="/build/img/FranknBridewithCorn2.jpg" alt="FranknBridewithCorn2" height="150" width="150" ></span>
+         <span class='FrankBrideWithCorn2' style='--i:0;'><img src="/build/img/FrankBrideWithCorn2.jpg" alt="FrankBrideWithCorn2" height="150" width="150" ></span>
  
          <span class='alienPilgrim ' style='--i:1;' ><img src="/build/img/alienInTheCornField.jpg" alt="Alien Pilgrim" height="150" width="150" ></span>
 

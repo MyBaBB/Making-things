@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import Sidenav from './components/Sidenav'
 import CountdownTimer from './components/CountdownTimer'
-
+import Frank from './components/Frank'
 function App() {
 
   return (
@@ -12,6 +12,9 @@ function App() {
       </div>
       <div className='block top-2 border-2 border-green-400 w-3/12'>
         <CountdownTimer />
+      </div>
+      <div>
+        <Frank />
       </div>
     </div>
   )
