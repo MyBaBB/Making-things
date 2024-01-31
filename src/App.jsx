@@ -1,26 +1,19 @@
 // eslint-disable-next-line no-unused-vars
-import { useState } from 'react'
- 
-import Accordian1 from './components/Accordian1.jsx'
- 
- 
-/* import TestFonts from './components/TestFonts.jsx' */
- 
-function App() {
-
+import React from 'react'
+// import Accordion from './components/Accordion'
+// import CountdownTimer from './components/CountdownTimer'
+import Carousel from './components/Carousel'
+const App = () => {
   return (
-     
-      <div>
-       < Accordian1 />
-  
-      
-
-      </div>
-       
-       
+    <div className='bg-emerald-900 w-screen h-screen'>
+     {/* <Accordion /> */}
+     {/* <CountdownTimer /> */}
+     <Carousel />
     
+         </div>
   )
 }
 
 export default App
+
 

@@ -24,7 +24,7 @@ const CountdownTimer = () => {
     }, []);
 
     return (
-        <div>
+        <div className='text-[4rem]'>
             {timeLeft}
         </div>
     );

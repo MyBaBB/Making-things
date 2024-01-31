@@ -1,8 +1,11 @@
-# React + Vite
+Carousel instructions. manual entry
+https://blog.bitsrc.io/simple-carousel-in-react-2aac73887243
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+react library
+Embla carousel   https://www.youtube.com/watch?v=S5RzbQo4vaI
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bestie
+https://www.youtube.com/watch?v=49EOpSeb_4I
+
+ 

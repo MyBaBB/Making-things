@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 
-const Accordian1 = () => {
+const Accordion = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleAccordion1 = () => {
+  const toggleAccordion = () => {
     setIsOpen(!isOpen);
   };
 
@@ -13,8 +13,8 @@ const Accordian1 = () => {
       <div className='relative flex justify-center items-center border-2 border-red-700 w-full h-full'>
         <div className='border-2 border-red-400 w-full p-1 m-1 text-left'>
           <div className='flex justify-center'>
-            <button onClick={toggleAccordion1} className='text-blue-900 font-extrabold'>
-              👀About SEO
+            <button onClick={toggleAccordion} className='text-blue-900 text-[4rem] font-extrabold'>
+              👀Accordion Component
             </button>
           </div>
           {isOpen &&
@@ -32,5 +32,5 @@ const Accordian1 = () => {
   );
 };
 
-export default Accordian1
+export default Accordion;
 
