@@ -3,15 +3,16 @@ import React from 'react'
 // import Accordion from './components/Accordion'
 // import CountdownTimer from './components/CountdownTimer'
 // import Carousel from './components/Carousel'
-import TestComponent from './TestFolder/TestComponent'
+ 
+import ImgComponent from './ImagComponentFolder/ImgComponent'
 const App = () => {
   return (
-    <div className='bg-emerald-900 w-screen h-screen'>
+    <div>
      {/* <Accordion /> */}
      {/* <CountdownTimer /> */}
-     <TestComponent />
+     <ImgComponent />
     
-         </div>
+    </div>
   )
 }
 
