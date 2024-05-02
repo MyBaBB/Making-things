@@ -17,10 +17,10 @@ const ImgItem = ({img, title, figcaption, alt, width}) => {
     width: PropTypes.number.isRequired,
   };
   return (
-    <div className='  h-auto w-fit shadow-xl shadow-gray-400 rounded-xl'>
-     <figure className='relative justify-center   m-auto'>
+    <div className='  h-auto w-fit shadow-xl shadow-gray-400 rounded-xl '>
+     <figure className='relative justify-center m-auto'>
       <img src={img} alt= {alt} width={width} className='m-auto'/>
-         <figcaption  className='m-auto' >
+         <figcaption  className='m-auto  text-black ' >
                {figcaption}
          </figcaption> 
       </figure>
@@ -29,7 +29,7 @@ const ImgItem = ({img, title, figcaption, alt, width}) => {
    
    
    
-        <h3 className='text-2xl font-bold text-white tracking-wider text-center '>
+        <h3 className='text-2xl font-bold text-black  text-center '>
           {title}
         </h3>
       

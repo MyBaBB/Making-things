@@ -17,6 +17,7 @@ const ImgComponent = () => {
               
   <ImgItem img={Corn} className title={'Custom Websites'} figcaption={'Hello World'} width={200}   />
   <ImgItem img={Corn} className title={'Custom Websites'} figcaption={'Hello World'} width={200}   />
+  <ImgItem img={Corn} className title={'Custom Websites'} figcaption={'Hello World'} width={200}   />
 
     </div>
   );
