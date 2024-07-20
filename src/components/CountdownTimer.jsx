@@ -8,7 +8,7 @@ const CountdownTimer = () => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            const countDownDate = new Date("nov 23, 2023 00:00:00 PST").getTime();
+            const countDownDate = new Date("nov 24, 2023 00:00:00 PST").getTime();
             const now = new Date().getTime();
             const distance = countDownDate - now;
 
